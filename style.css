@@ -21,6 +21,6 @@ width: 1600px;
 
 .top-right {
     position: absolute; /* Takes the div out of the normal flow */
-    top: 0;            /* Positions the div at the top edge */
-    right: 0;         /* Positions the div at the right edge */
+    top: 20px;            /* Positions the div at the top edge */
+    right: 20px;         /* Positions the div at the right edge */
   }
