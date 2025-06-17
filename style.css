@@ -1,7 +1,7 @@
 .header {
 padding: 60px;
 text-align: center;
-background: #1abc9c;
+background: #1278b3;
 color: white;
 font-size: 15px;
 }
@@ -16,19 +16,27 @@ text-align: center;
 }
 
 .banner_contents {
-width: 1600px;
+width: 1300px;
 }
+
+.center {
+  position: relative;
+  left: 50%;
+  transform: translateX(calc(-50% - 100px));
+  text-align: center;
+}
+
 
 .top-right {
     position: absolute; /* Takes the div out of the normal flow */
-    top: 20px;            /* Positions the div at the top edge */
+    top: 260px;            /* Positions the div at the top edge */
     right: 20px;         /* Positions the div at the right edge */
   }
 
 a:link, a:visited {
   background-color: white;
   color: black;
-  border: 2px solid green;
+  border: 2px solid blue;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -36,6 +44,18 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: green;
+  background-color: blue;
   color: white;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  right: 0;
+  top: 250px;
 }
